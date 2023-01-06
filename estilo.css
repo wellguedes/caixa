@@ -1,0 +1,111 @@
+@charset "utf-8";
+/**
+ * Carrega Fontes
+ */
+
+
+/* Remove Bordas Webkit */
+input:focus, textarea:focus {
+	outline: none;
+}
+
+
+/**
+ * Layout
+ */
+#pagina {
+	margin:auto; width:999px;
+}
+
+#meio {
+	margin:0px 6px 0px 6px; padding-top:20px;
+}
+#centro {
+	float:left; width:660px;	
+}
+#esquerda {
+	float:left; width:164px; margin-right:6px; background-color:#F9F9F9; margin-bottom:10px;
+}
+
+
+/**
+ * Titulos Internos
+ */
+.titulo-paginas-smp {
+	color:#58455F; font-size:20px; margin-bottom:15px;
+}
+
+/**
+ * Validação Erro
+ */
+.valida-erro, div.valida-erro .obg {
+	color:#F00;
+}
+div.valida-erro input {
+	border:1px solid #F00;
+}
+.valida-erro-texto {
+	padding-top:2px;	
+}
+
+/**
+ * Diversos
+ */
+.clear {
+	clear:both; font-size:1px;
+}
+
+.comprasegura-img {
+	background:url(../img/diversas/compra_segura.png); width:143px; height:33px; display:block;
+}
+.bold {
+	font-weight:bold;	
+}
+.oculto, .hidden{
+	display:none;
+}
+.border-indica{
+	border:2px dashed #0F0; opacity:1 !important;
+}
+.border-ok{
+	border:2px dashed #0F0; background-color:#87C3E9;
+}
+.elemento-drag-ativo{
+	width:150px; height:150px; border:5px solid #999999; position:absolute; z-index:1000 !important; box-shadow:1px 1px 10px #333;
+}
+.icn-drag{
+	width:29px; height:27px; display:block; position:absolute; top:0; left:0; margin-top:-15px; margin-left:-15px; background:url(../img/layout/sprites/icones_dragdrop.png) 0px 0px  no-repeat; -webkit-transition: all 0.3s ease; -moz-transition: all 0.3s ease;
+}
+.icn-drag-ok{
+	background:url(../img/layout/sprites/icones_dragdrop.png) -31px 0px  no-repeat;
+}
+.helper-ie7{
+    display: inline-block; height: 100%; vertical-align: middle;
+}
+#bt_ok_entendido{
+	border-radius:5px; padding:5px; background:#F60; font-size:14px; color:#FFF; text-decoration:none;
+}
+#bt_ok_entendido:hover{
+	text-decoration:none;
+}
+
+/**
+* Busca por tamanhos
+**/
+.bsc-tam-area {
+	float:left; padding-left: 10px; margin-top: 10px;
+}
+.bsc-tam {
+	float:left; width:141px; height:61px; margin-bottom:5px; text-align:center;
+}
+.bsc-tam.fem-33 {
+	background:url(../img/layout/fem-peq-33.jpg);
+}
+.bsc-tam.fem-39 {
+	background:url(../img/layout/fem-gran-39.jpg);
+}
+.bsc-tam.fem-40 {
+	background:url(../img/layout/fem-grande-40.jpg); margin-bottom:10px;
+}@charset "utf-8";
+/* CSS Document */
+

@@ -1,0 +1,120 @@
+.atendimento-titulo{
+	width:769px; margin:5px; color:#2E8EC2; font-size:23px; margin-bottom:10px;
+}
+.atendimento-area .fale-conosco{
+	width:769px; height:100px;; background-color:#FFF; margin:5px; border:1px solid #E9E4DA;
+}
+.atendimento-area .formulario-fale-conosco{
+	width:759px; height:600px; margin:5px; background-color:#FFF; padding:5px; font-size:12px; font-weight:bold;
+}
+.atendimento-area .formulario-fale-conosco input{
+	width:270px; height:32px; float:left; margin-top:5px; padding-left:5px; background:url(bg_inputs_inverso.png) repeat-x; border:1px solid #E1E1E1; border-radius:4px; -moz-border-radius:4px; -webkit-border-radius:4px;
+}
+.atendimento-area .formulario-fale-conosco textarea{
+ 	border:1px solid #E1E1E1; border-radius:4px; -moz-border-radius:4px; -webkit-border-radius:4px; font-family:"Trebuchet MS", Arial, Helvetica, sans-serif; font-size:13px; background:url(bg_inputs_inverso.png) repeat-x; min-width:270px; max-width:270px; min-height:120px; max-height:120px; margin-top:7px; margin-left:-1px;
+}
+.atendimento-area .formulario-fale-conosco .cliente-sim, .atendimento-area .formulario-fale-conosco .cliente-nao{
+	width:auto; height:auto; float:none; font-weight:normal; border:0px none; background-image:none;
+}
+.atendimento-area .formulario-fale-conosco .ja-cliente{
+	width:715px; height:40px; float:left; padding-left:75px; line-height:40px;
+}
+.atendimento-area .formulario-fale-conosco .esqueci-senha{
+	width:150px; float:left; margin-top:10px;
+}
+.atendimento-area .formulario-fale-conosco .formulario-login, .atendimento-area .formulario-fale-conosco .formulario-contato{
+	width:380px; margin-top:15px; margin-left:115px; margin-right:190px; float:left; margin-bottom:20px;
+}
+.atendimento-area .formulario-fale-conosco .formulario-contato{
+	margin-left:80px;
+}
+.atendimento-area .formulario-fale-conosco .nome-campo{
+	width:95px; float:left; height:33px; line-height:30px; margin-top:5px; text-align:right; padding-right:5px;
+}
+.atendimento-area .formulario-fale-conosco .nome-campo.lgn{
+	width:60px;
+}
+.atendimento-area .formulario-fale-conosco .deptos{
+	width:160px; margin-top:10px;
+}
+.atendimento-area .formulario-fale-conosco .botao-logar, .atendimento-area .formulario-fale-conosco .botao-enviar{
+	width:100px; height:34px; float:right; color:#FFF; text-align:center; text-transform:uppercase; margin-top:10px; margin-right:40px; border:0px none; background-image:none; background:url(../img/layout/bg_botoes_form.png) repeat-x; font-weight:bold;
+}
+.atendimento-area .formulario-fale-conosco .botao-enviar{
+	margin-right:5px;
+}
+.atendimento-area .formulario-fale-conosco .botao-logar:hover, .atendimento-area .formulario-fale-conosco .botao-enviar:hover{
+	cursor:pointer;
+}
+.atendimento-area .tit-fale-conosco{
+	font-size:14px; margin:4px; font-weight:bold; float:left; width:765px;
+}
+.atendimento-area .fale-conosco ul li{
+	width:180px; height:70px; float:left; margin:5px;
+}
+.obg{
+	color:#9268A4; font-size:16px; font-weight:bold;
+}
+.pagina-interna-cont-title{
+	font-size:20px; color:#584561; border-bottom:1px dotted #584561; text-transform:uppercase; margin-bottom:20px;
+}
+
+/* Chat */
+.atendimento-area .fale-conosco ul li.chat .icn-chat{
+	width:50px; height:50px; border-radius:4px; background-color:#000; margin:3px; float:left;
+}
+.atendimento-area .fale-conosco ul li.chat .text-chat{ 
+	margin-top:10px;
+}
+.atendimento-area .fale-conosco ul li.chat .txt-1{
+	width:120px; float:left; font-size:12px; font-weight:bold;
+}
+.atendimento-area .fale-conosco ul li.chat .txt-2{
+	line-height:10px; font-size:10px;
+}
+
+/* Telefone */
+.atendimento-area .fale-conosco ul li.telefone .icn-telefone{
+	width:50px; height:50px; border-radius:4px; margin:3px; float:left; background:url(../img/layout/sprites/atendimento.png) -0px -0px;
+}
+.atendimento-area .fale-conosco ul li.telefone .text-telefone{ 
+	margin-top:10px;
+}
+.atendimento-area .fale-conosco ul li.telefone .txt-1{
+	width:120px; float:left; font-size:12px; font-weight:bold;
+}
+.atendimento-area .fale-conosco ul li.telefone .txt-2{
+	line-height:10px; font-size:10px;
+}
+
+/* E-mail */
+.atendimento-area .fale-conosco ul li.email .icn-email{
+	width:50px; height:50px; border-radius:4px; margin:3px; float:left; background:url(../img/layout/sprites/atendimento.png) -50px -0px;
+}
+.atendimento-area .fale-conosco ul li.email .text-email{ 
+	margin-top:10px;
+}
+.atendimento-area .fale-conosco ul li.email .txt-1{
+	width:120px; float:left; font-size:12px; font-weight:bold;
+}
+.atendimento-area .fale-conosco ul li.email .txt-2{
+	line-height:10px; font-size:10px;
+}
+
+/* HorÃ¡rio Atendimento */
+.atendimento-area .fale-conosco ul li.horario-atendimento .text-atendimento{ 
+	margin-top:10px;
+}
+.atendimento-area .fale-conosco ul li.horario-atendimento .txt-1, .atendimento-area .fale-conosco ul li.horario-atendimento .txt-2, .atendimento-area .fale-conosco ul li.horario-atendimento .txt-3{
+	width:150px; float:left; line-height:12px; font-size:10px;
+}
+
+.valida-erro-texto {
+	margin-left:103px; clear:both; color:red;
+}
+
+.formulario-login .valida-erro-texto {
+	margin-left:66px;
+}@charset "utf-8";
+/* CSS Document */
+

@@ -1,0 +1,41 @@
+/* Reset */
+table { border-collapse:collapse; border-spacing:0; }
+fieldset,img { border:0; }
+
+/* Estrutura */
+
+a { text-decoration:none; }
+a:hover { text-decoration:none; }
+
+#content {width:100%; }
+
+#content div.innercont h2 { font-size:3em; color:#7C7C7C; border-bottom:1px solid #D8D8D8; padding:0 0 5px; margin:0 0 20px; }
+
+#content div.innercont form { background-color:#FFF; border:1px solid #E6E7E9; padding:10px; }
+#content div.innercont form p.definicao { margin:0 0 2em; }
+#content div.innercont form label { display:block; font-size:1.2em; }
+
+
+/* Tabelas */
+table { font-size:1.2em; background-color:#FFF; border:1px solid #E6E7E9; border-right:0; margin:0 0 20px; width: 100%; }
+table th { height:28px; color:#FFF; background:url(bg_theader.jpg) repeat-x; border:1px solid #6CA8C4; padding:0 10px; }
+table th.acoes { width:90px; }
+table tr { height:30px; }
+table tr td { padding:0 10px; border-right:1px solid #E6E7E9; }
+table tr td img.acao { margin:0 5px }
+table tr.dif { background-color:#F2F2F2; }
+
+.td15 {
+	background-color: #D7E6FF;
+	border:0px;
+	color:#000000;
+}
+
+.td16 {
+	background-color: #E8EEF7;
+	color:#000000;
+	border:0px;
+}
+
+/*-- LOGIN --*/
+
